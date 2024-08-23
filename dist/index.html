@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio V1</title>
     <link rel="stylesheet" href="output.css">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 
 <body>
@@ -12,13 +17,13 @@
         <div class="max-w-7xl mx-auto flex justify-between h-20 items-center ">
             <a href="" class="text-4xl font-semibold text-white">< RoryBuchan /></h1>
             <div class="flex items-center text-white">
-                <a href="" class="mx-4 font-semibold text-lg">Tech Stack</a>
+                <a href="#TechStack" class="mx-4 font-semibold text-lg">Tech Stack</a>
                 <div>|</div>
-                <a href="" class="mx-4 font-semibold text-lg">Featured Project</a>
+                <a href="#FeaturedProject" class="mx-4 font-semibold text-lg">Featured Project</a>
                 <div>|</div>
-                <a href="" class="mx-4 font-semibold text-lg">Experience</a>
+                <a href="#Experience" class="mx-4 font-semibold text-lg">Experience</a>
                 <div>|</div>
-                <a href="" class="mx-4 font-semibold text-lg">Contact Me</a>
+                <a href="#ContactMe" class="mx-4 font-semibold text-lg">Contact Me</a>
 
             </div>
         </div>
@@ -45,10 +50,10 @@
                         </a>
                     </div>
                     <div id="buttons">
-                        <a href="">
+                        <a href="#ContactMe">
                             <button class="bg-teal-600 text-cyan-800 rounded px-4 py-1 mr-3">Contact Me</button>
                         </a>
-                        <a href="">
+                        <a href="#FeaturedProject">
                             <button class="border-2 border-teal-600 text-teal-600 rounded px-4 py-1 ml-3">See My Work</button>
                         </a>
                     </div> 
@@ -87,7 +92,7 @@
         <div class="bg-cyan-800">
             <div class="max-w-7xl mx-auto flex items-center pt-36 pb-36">
                 <div class="text-white">
-                    <h1 class="text-6xl pb-20">Featured Project</h1>
+                    <h1 class="text-5xl pb-20">Featured Project</h1>
                     <p class="pb-4">I’m excited to share my first project using HTML and Tailwind CSS. HTML helped me build the structure, while Tailwind’s inline styling made this quick and easy.</p>
                     <p>I have done several pages like this in the past but never using Tailwind CSS, I feel my knowledge of which is now cemented.</p>
                     
@@ -103,9 +108,9 @@
         </div>
     </section>
 
-    <section id="My Experience">
-        <div class="bg-cyan-800 pb-20">
-            <h1 class="text-5xl text-center text-white pt-36">My Experience</h1>
+    <section id="Experience">
+        <div class="bg-cyan-800 pb-28">
+            <h1 class="text-5xl text-center text-white pt-28">My Experience</h1>
                 <div class="max-w-7xl mx-auto">
                     <div id="progressBarNames" class="flex justify-between space-x-16 text-white">
                         <div class="w-1/2 py-16">
@@ -160,12 +165,39 @@
         </div>
     </section>
 
-    <footer>
-        <div class="bg-cyan-500 h-screen">
-            <div>
-
+    <footer id="ContactMe">
+        <div class="bg-teal-600">
+            <div class="max-w-7xl mx-auto pb-6">
+                <div class="text-white py-8">
+                    <h1 class="text-5xl mb-10">Contact Me</h1>
+                    <div class="flex items-center mb-4">
+                        <a href="https://github.com/roryb18" target="_blank" class="flex items-center space-x-1">
+                            <img src="/images/github.png" alt="GitHub Logo" class="w-10">
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <a href="https://www.linkedin.com/in/rory-buchan-b0b808322/" target="_blank" class="flex items-center space-x-3">
+                            <img src="/images/linkedin.png" alt="LinkedIn Logo" class="pl-1.5 pb-2 w-8">
+                            <span class="pb-2">LinkedIn</span>
+                        </a>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <a href="https://x.com/RoryBuchan7" target="_blank" class="flex items-center space-x-3">
+                            <img src="/images/twitter.png" alt="X Logo" class="pl-1.5 pb-2 w-8">
+                            <span class="pb-2">Twitter</span>
+                        </a>
+                    </div>
+                    <div class="flex items-center">
+                        <a href="mailto:rory.buchan0@gmail.com" class="flex items-center space-x-3">
+                            <img src="/images/email.png" alt="Email Icon" class="pl-1.5 w-8">
+                            <span>rory.buchan0@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-    </footer>
+        
+    </footer>   
 </body>
 </html>
