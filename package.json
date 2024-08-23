@@ -1,0 +1,15 @@
+{
+  "name": "portfoliov1",
+  "version": "1.0.0",
+  "description": "I am near the start of my Web-Development journey. To document my progress I am going to be making several updated portfolios like this one. Each time I will be implementing new skills that I have learned. I am going to aim to create these every 1/2 months.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
